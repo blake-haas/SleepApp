@@ -1,0 +1,59 @@
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#152d49+0,0f1c31+100 */
+
+body{
+  background-color:#000000
+}
+.white{
+	color:white;
+}
+.main-content{
+	margin-top:100px;
+}
+#bg {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+
+    background: url('') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.badges{
+margin-top:20px;
+}
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sleepheader{
+	font-size: 2.5em;
+}
+div.footer-copyright nav ul li {
+    border-right: none;
+    display: inline-block;
+    line-height: 12px;
+    margin: 0;
+    padding: 0 8px;
+}
+div.footer-copyright nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: white !important;
+    text-decoration: none;
+}
+.store-buttons ul{
+    list-style-type: none;
+    padding:10px;
+    
+}

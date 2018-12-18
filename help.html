@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="Blake Haas">
+
+    <title>Sleep - Getting Started</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="getting_started/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="getting_started/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="getting_started/css/navbar-fixed-top.css" rel="stylesheet">
+    <link href="getting_started/css/site.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" style="border-color: transparent; background-color: transparent;"  class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="hamburger"></span>
+          </button>
+          <img class="header-icon" width="44px" height="44px" src="getting_started/assets/sleep.png">
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="http://sleepapp.azurewebsites.net">Home</a></li>
+            <li class="active"><a href="#maindisplay">Main Display</a></li>
+            <li><a href="#basesounds">Base Sounds</a></li>
+            <li><a href="#accentsounds">Accent Sounds</a></li>
+            <li><a href="#sleeptimer">Sleep Timer</a></li>
+            <li><a href="#sleeptolast">Sleep to Last</a></li>
+            <li><a href="#dynamicrain">Dynamic Rain</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1 class="center" style="color:white;">Getting Started with Sleep</h1>
+      <br/>
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron" id="maindisplay">
+        <h1>Main Display</h1>
+        <img class="maindisplay" src="getting_started/assets/maindisplay.png" />
+        <br/>
+        <p>The two primary sections of sleep are the base sounds and the accent sounds. Secondary sections are seen towards the top of Sleep. The volume slider is at the top. The sleep timer is at the far left. The center is a current time display and the app information is to the far right.</p>
+      </div>
+            <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron" id="basesounds">
+        <h1>Base Sounds</h1>
+        <p>Scroll through the set of base sounds at the bottom of Sleep.</p>
+        <p>Once you see one you like, tap it to start listening to the soothing base sound.</p>
+          <div align="center">
+          <video width="320" height="640" poster="getting_started/assets/basethumbnail.png" controls class="responsive-video">
+            <source src="getting_started/assets/PickBaseSound.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+          </div>
+      </div>
+
+      <div class="jumbotron" id="accentsounds">
+        <h1>Accent Sounds</h1>
+        <p>Accent sounds complement the base sounds. You can only play accent sounds once a base sound is playing.
+          You can have up to 5 accent sounds selected to use, a minimum of 2 are required to be selected.</p>
+        <p>Changing the accent sounds is easy, just select the + accent tile called more and you will be presented with the full list of accent sounds.</p>
+        <p>Unselect the accents you no longer want to use and select the new ones you would like to use and hit set.</p>
+          <div align="center">
+          <video width="320" height="640" poster="getting_started/assets/accentswapthumbnail.png" controls class="responsive-video">
+            <source src="getting_started/assets/SwapAccentSounds.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+          </div>
+       
+        <div align="center">
+           <p>Accent sounds have 4 levels of volume operation:</p>
+           <div class="row">
+              <div class="col-xs-2 col-xs-offset-2">
+                <figure class="figure">
+                  <figcaption class="figure-caption">Off</figcaption>
+                  <img src="getting_started/assets/Accent_Off.png" class="figure-img accent-icon" alt="Off">
+                </figure>
+              </div>
+              <div class="col-xs-2">
+                <figure class="figure">
+                  <figcaption class="figure-caption">Low</figcaption>
+                  <img src="getting_started/assets/Accent_One.png" class="figure-img accent-icon" alt="Off">
+                </figure>
+              </div>
+              <div class="col-xs-2">
+                <figure class="figure">
+                  <figcaption class="figure-caption">Medium</figcaption>
+                  <img src="getting_started/assets/Accent_Two.png" class="figure-img accent-icon" alt="Off">
+                </figure>
+              </div>
+              <div class="col-xs-2">
+                <figure class="figure">
+                  <figcaption class="figure-caption">High</figcaption>
+                  <img src="getting_started/assets/Accent_Three.png" class="figure-img accent-icon" alt="Off">
+                </figure>
+              </div>
+          </div>
+          <div>
+            <p>Tapping an accent that is off will turn it on and set the volume level to low, tapping once more will set the accent volume to medium and lastly tapping once more will raise the volume to high. Tapping the accent after it is set to high will turn it off.</p>
+            <div align="center">
+              <video width="320" height="640" poster="getting_started/assets/accentvolumethumbnail.png" controls class="responsive-video">
+                <source src="getting_started/assets/StartAccentSounds.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+      </div>
+      </div>
+
+      <div class="jumbotron" id="sleeptimer">
+        <h1>Sleep Timer</h1>
+        <p>The sleep timer can be accessed by tapping the top left moon icon next to the time. This will bring up a list of minutes that you can select and set to turn off all sounds after that time has elapsed.</p>
+        <p>You can re select different times after you have already selected the sleep time if you change your mind. Selecting infinity will essentially turn off the sleep timer.</p>
+          <div align="center">
+          <video width="320" height="640" poster="getting_started/assets/sleeptimethumbnail.png" controls class="responsive-video">
+            <source src="getting_started/assets/SetSleepTimer.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+          </div>
+      </div>
+      <div class="jumbotron" id="sleeptolast">
+        <h1>Sleep to Last</h1>
+        <p>The first base sound you will see on the far left is Sleep to Last. <img class="img-embedded-base-sound" src="getting_started/assets/lasttile.png" /> Selecting this base sound will play whatever you setup the last time you used sleep. The accents, volume, base sound and sleep timer will all automatically start from where you last had them.</p>
+        <p>Your last used settings get saved after 5 min. So once you have setup sleep the way you want it, keep it running for atleast 5 minutes and then those settings will get automatically saved. Then you can open Sleep and simply select the Sleep to last base sound and be all ready for a good nights sleep.</p>
+      </div>
+      <div class="jumbotron" id="dynamicrain">
+        <h1>Dynamic Rain</h1>
+        <p>This is the first Dynamic base sound for sleep. Dynamic Rain is designed to mimic a real rain storm. <img class="img-embedded-base-sound" src="getting_started/assets/dynamicrain.png" /> The sounds of rain will change as they do in a real storm. Sometimes the rain will get real quiet, other times it will come down hard. Each time you use Dynamic Rain, you will experience an entirely new rain storm for a better nights sleep.</p>
+      </div>
+      <div id="footer">
+        <div class="container text-center">
+          <p class="text-muted credit" style="color:#fff">© Copyright 2016. All Rights Reserved.</p>
+        </div>
+      </div>
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="getting_started/js/jquery-3.0.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-3.0.0.min.js"><\/script>')</script>
+    <script src="getting_started/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="getting_started/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="getting_started/js/site.js"></script>
+  </body>
+</html>
